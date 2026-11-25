@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShortsStudio - Short-form video creation and social media management.">
+    <title>ShortsStudio | Create. Publish. Grow.</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #071525;
+            color: #f1f5f9;
+            line-height: 1.7;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px 8%;
+            border-bottom: 1px solid #20374c;
+        }
+
+        .brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .brand span {
+            color: #00d9ff;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #00d9ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: radial-gradient(
+                ellipse at top,
+                #123451,
+                #071525 70%
+            );
+        }
+
+        .logo {
+            width: 220px;
+            max-width: 80%;
+            border-radius: 30px;
+            box-shadow: 0 0 50px #00d9ff25;
+        }
+
+        h1 {
+            font-size: clamp(36px, 6vw, 64px);
+            line-height: 1.2;
+            margin: 25px 0;
+        }
+
+        h1 span {
+            color: #00d9ff;
+        }
+
+        .hero p {
+            max-width: 680px;
+            margin: auto;
+            color: #a8bbce;
+            font-size: 18px;
+        }
+
+        .features {
+            max-width: 1150px;
+            margin: auto;
+            padding: 40px 20px 80px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(240px, 1fr)
+            );
+            gap: 20px;
+        }
+
+        .card {
+            background: #102338;
+            border: 1px solid #203c54;
+            border-radius: 16px;
+            padding: 26px;
+        }
+
+        .card h3 {
+            color: #00d9ff;
+        }
+
+        .card p {
+            color: #b8c8d9;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: #16354a;
+            font-size: 12px;
+            color: #a5e8ff;
+        }
+
+        .platforms {
+            text-align: center;
+            padding: 40px 20px 70px;
+        }
+
+        .platform {
+            display: inline-block;
+            padding: 12px 22px;
+            margin: 8px;
+            border: 1px solid #34516a;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            border-top: 1px solid #20374c;
+            padding: 35px 20px;
+            color: #94a3b8;
+        }
+
+        footer a {
+            color: #00d9ff;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">Shorts<span>Studio</span></div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <img src="logo.png" alt="ShortsStudio logo" class="logo">
+
+        <h1>Create. Publish. <span>Grow.</span></h1>
+
+        <p>
+            ShortsStudio is a desktop video production application
+            designed to simplify short-form content creation,
+            publishing and performance analysis.
+        </p>
+    </section>
+
+    <section class="features">
+        <h2>From idea to video</h2>
+
+        <div class="grid">
+            <article class="card">
+                <span class="status">Available</span>
+                <h3>Video Creation</h3>
+                <p>
+                    Create animated vertical videos using reusable
+                    characters, visual components and configurable scenes.
+                </p>
+            </article>
+
+            <article class="card">
+                <span class="status">Available</span>
+                <h3>Audio and Captions</h3>
+                <p>
+                    Combine narration, synchronized subtitles,
+                    music, sound effects and character animations.
+                </p>
+            </article>
+
+            <article class="card">
+                <span class="status">In development</span>
+                <h3>Social Publishing</h3>
+                <p>
+                    Manage video publishing workflows through
+                    authorized social media integrations.
+                </p>
+            </article>
+
+            <article class="card">
+                <span class="status">In development</span>
+                <h3>Performance Analytics</h3>
+                <p>
+                    Review available video metrics and historical
+                    performance to improve future content.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="platforms">
+        <h2>Social Media Integrations</h2>
+
+        <div class="platform">
+            YouTube — Available
+        </div>
+
+        <div class="platform">
+            Instagram — In development
+        </div>
+
+        <div class="platform">
+            TikTok — In development
+        </div>
+
+        <p>
+            Integrations depend on platform authorization,
+            API availability and applicable approval requirements.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 ShortsStudio. All rights reserved.</p>
+
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+
+    <p>
+        Contact:
+        <a href="mailto:phreakphantom99@proton.me">
+            phreakphantom99@proton.me
+        </a>
+    </p>
+
+    <small>
+        ShortsStudio is an independent application and is not
+        affiliated with YouTube, Meta or TikTok.
+    </small>
+</footer>
+
+</body>
+</html>
